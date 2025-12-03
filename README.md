@@ -1,24 +1,72 @@
 # Product Support Assistant with RAG & MCP Integration
 
-A production-ready AI assistant that combines **Retrieval-Augmented Generation (RAG)** with **Model Context Protocol (MCP)** tools to provide intelligent product support.
+A document retrieval and tool-calling assistant for product support, combining Retrieval-Augmented Generation (RAG) with external tool integration via MCP.
 
-## 🎯 Features
+## Features
 
-- **RAG (Retrieval-Augmented Generation)**: Searches product knowledge base for accurate, document-based answers
-- **MCP Tool Integration**: Calls external services (exchange rates, currency info, etc.) via standardized protocol
-- **Groq LLM**: Lightning-fast inference using open-source models
-- **Streamlit UI**: Simple, interactive web interface
-- **Chat History**: Maintains conversation context across multiple queries
-- **Tool Usage Tracking**: Shows which tools were used for each response
+- **RAG-based document retrieval** for product FAQs and support documentation
+- **External tool integration** via MCP server for currency conversion and information
+- **Streamlit UI** for interactive chat interface
+- **Modular architecture** for easy extension and customization
 
-## 📋 Prerequisites
+## Getting Started
 
-- Windows 10+ / macOS / Linux
-- Python 3.10+
-- VS Code (recommended)
-- Groq API Key (get at https://console.groq.com/)
+### Prerequisites
 
-## 🚀 Quick Start
+- Python 3.11+
+- Groq API key (for LLM inference)
+- MCP server running locally
 
-### Step 1: Setup Virtual Environment (Windows)
+### Installation
 
+Clone the repository
+git clone https://github.com/ImaduddeenKhan/RAG-MCP-product-support-assistant.git
+cd RAG-MCP-product-support-assistant
+
+Create virtual environment
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+Install dependencies
+pip install -r requirements.txt
+
+Copy environment file
+cp .env.example .env
+
+
+### Configuration
+
+Edit `.env` file with your Groq API key:
+GROQ_API_KEY=your_api_key_here
+MCP_SERVER_URL=http://localhost:8001
+
+
+### Running the Application
+
+Start MCP server
+python src/mcp_server.py
+
+Start Streamlit UI
+streamlit run src/app.py
+
+
+## Usage
+
+1. Open Streamlit UI at http://localhost:8501
+2. Ask questions about product features, pricing, or troubleshooting
+3. Request currency conversion rates
+4. Get information about specific currencies
+
+## Architecture
+
+- **RAG Assistant**: Combines document retrieval with tool calling
+- **MCP Integration**: External tool server for currency information
+- **Streamlit UI**: Interactive chat interface
+
+## Screenshots
+
+![Screenshot 2025-12-03 113837.png](Screenshot%202025-12-03%20113837.png)
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
