@@ -1,0 +1,38 @@
+
+# Core Dependencies
+fastapi==0.123.4
+uvicorn==0.38.0
+streamlit==1.51.0
+streamlit-option-menu==0.4.0
+
+# LangChain Ecosystem
+langchain==1.1.0
+langchain-community==0.4.1
+langchain-core==1.1.0
+langchain-groq==1.1.0
+langchain-huggingface==1.1.0
+langchain-text-splitters==1.0.0
+langchain-classic==1.0.0
+
+# LLM & AI
+groq==0.37.0
+sentence-transformers==5.1.2
+transformers==4.57.3
+torch==2.9.1
+
+# Vector Store & Embeddings
+faiss-cpu==1.13.0
+huggingface-hub==0.36.0
+
+# MCP & FastMCP
+fastmcp==2.13.2
+mcp==1.22.0
+
+# HTTP & Networking
+httpx==0.28.1
+aiohttp==3.13.2
+
+# Utilities
+python-dotenv==1.2.1
+pydantic==2.12.5
+typing-extensions==4.15.0

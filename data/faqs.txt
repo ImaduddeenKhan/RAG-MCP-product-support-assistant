@@ -1,0 +1,29 @@
+PRODUCT SUPPORT FAQs - TechFlow Pro Suite v2.5
+
+1. INSTALLATION & SETUP
+Q: How do I install TechFlow Pro Suite?
+A: Download from our website, extract the ZIP file, and run install.exe. For Mac/Linux, use the setup.sh script. System requirements: Windows 10+, macOS 10.15+, or Ubuntu 18.04+. Minimum 4GB RAM and 2GB free disk space required.
+
+2. PRICING & PLANS
+Q: What pricing plans are available?
+A: We offer three plans: (1) Starter at $9.99/month with basic features, (2) Professional at $29.99/month with advanced analytics, and (3) Enterprise with custom pricing and dedicated support. All plans include 30-day free trial.
+
+3. FEATURES & FUNCTIONALITY
+Q: What are the key features of TechFlow Pro?
+A: TechFlow Pro includes real-time data synchronization, multi-device support, API integration, advanced reporting dashboard, 24/7 customer support, automated backups, and role-based access control for teams.
+
+4. TROUBLESHOOTING
+Q: Why is my application running slowly?
+A: Common causes include: (1) insufficient RAM, (2) too many background processes, (3) outdated software version, (4) network connectivity issues. Try updating to the latest version, clearing cache, and restarting the application.
+
+5. BILLING & SUBSCRIPTIONS
+Q: How can I cancel my subscription?
+A: You can cancel anytime from your account settings under "Subscriptions". Cancellations are effective immediately. If you paid for a full year upfront, we offer prorated refunds for unused months within 30 days of cancellation.
+
+6. SECURITY & COMPLIANCE
+Q: How is my data protected?
+A: We use 256-bit AES encryption for data at rest, TLS 1.3 for data in transit, and comply with GDPR, CCPA, and SOC 2 Type II standards. Regular security audits are performed quarterly by independent third parties.
+
+7. INTEGRATIONS
+Q: What third-party integrations are available?
+A: TechFlow Pro integrates with Slack, Microsoft Teams, Salesforce, HubSpot, Zapier, Google Workspace, and Microsoft 365. Custom API integrations are available on Professional and Enterprise plans.
