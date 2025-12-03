@@ -2,6 +2,11 @@
 
 A document retrieval and tool-calling assistant for product support, combining Retrieval-Augmented Generation (RAG) with external tool integration via MCP.
 
+## Screenshots
+![Screenshot](Screenshot%202025-12-03%20113837.png)
+![ScreenRecording](https://drive.google.com/file/d/1isI8-JJaJhOP6olVCTyZ8yprL0bRS3i_/view?usp=sharing)
+
+
 ## Features
 
 - **RAG-based document retrieval** for product FAQs and support documentation
@@ -63,9 +68,7 @@ streamlit run src/app.py
 - **MCP Integration**: External tool server for currency information
 - **Streamlit UI**: Interactive chat interface
 
-## Screenshots
 
-![Screenshot 2025-12-03 113837.png](Screenshot%202025-12-03%20113837.png)
 
 ## Contributing
 
