@@ -4,7 +4,8 @@ A document retrieval and tool-calling assistant for product support, combining R
 
 ## Screenshots
 ![Screenshot](Screenshot%202025-12-03%20113837.png)
-![ScreenRecording](https://drive.google.com/file/d/1isI8-JJaJhOP6olVCTyZ8yprL0bRS3i_/view?usp=sharing)
+[Watch Screen Recording](https://drive.google.com/uc?export=download&id=1isI8-JJaJhOP6olVCTyZ8yprL0bRS3i_)
+
 
 
 ## Features
